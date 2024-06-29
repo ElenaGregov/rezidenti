@@ -11015,9 +11015,8 @@ a {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (min-width: 992px){
   .inset-left-110 {
       padding-left: 110px;
   }
 }
- sourceMappingURL=style.css.map */
