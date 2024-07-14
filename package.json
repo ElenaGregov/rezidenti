@@ -1,0 +1,15 @@
+{
+  "name": "rezidenti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elena Gregov",
+  "license": "ISC",
+  "dependencies": {
+    "lightgallery": "^2.7.2",
+    "readmore-js": "^2.2.1"
+  }
+}
