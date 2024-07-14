@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Rezidenti</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link type="text/css" rel="stylesheet" href="/node_modules/lightgallery/css/lightgallery-bundle.css" />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Roboto:400,500%7CIbarra+Real+Nova:400,600,600i,700"
+    />-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- <link rel="stylesheet" href="css/fonts.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .ie-panel {
+        display: none;
+        background: #212121;
+        padding: 10px 0;
+        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+        clear: both;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+      html.ie-10 .ie-panel,
+      html.lt-ie-10 .ie-panel {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <!--<div class="ie-panel">
+      <a href="http://windows.microsoft.com/en-US/internet-explorer/"
+        ><img
+          src="images/ie8-panel/warning_bar_0000_us.jpg"
+          height="42"
+          width="820"
+          alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."
+      /></a>
+    </div>-->
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+
+    <div class="page">
+      <header class="section page-header">
+        <!--Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav
+            class="rd-navbar rd-navbar-classic"
+            data-layout="rd-navbar-fixed"
+            data-sm-layout="rd-navbar-fixed"
+            data-md-layout="rd-navbar-fixed"
+            data-md-device-layout="rd-navbar-fixed"
+            data-lg-layout="rd-navbar-static"
+            data-lg-device-layout="rd-navbar-static"
+            data-xl-layout="rd-navbar-static"
+            data-xl-device-layout="rd-navbar-static"
+            data-lg-stick-up-offset="46px"
+            data-xl-stick-up-offset="46px"
+            data-xxl-stick-up-offset="46px"
+            data-lg-stick-up="true"
+            data-xl-stick-up="true"
+            data-xxl-stick-up="true"
+          >
+            <!--<div
+              class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1"
+              data-rd-navbar-toggle=".rd-navbar-collapse"
+            >
+              <span></span>
+            </div> -->
+
+            <div class="rd-navbar-aside-outer rd-navbar-collapse">
+              <div class="rd-navbar-aside">
+                <ul class="list-inline list-inline-md">
+                  <div class="unit unit-spacing-xs align-items-center"></div>
+                </ul>
+
+                <ul class="social-list">
+                  <li>
+                    <a href="https://www.facebook.com/REZIDENTICZ"
+                      ><span class="icon fa fa-facebook-f">
+                        <img class="social" src="images/facebook.png" /> </span
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!--RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!--RD Navbar Toggle-->
+                  <button
+                    class="rd-navbar-toggle"
+                    data-rd-navbar-toggle=".rd-navbar-nav-wrap"
+                  >
+                    <span></span>
+                  </button>
+                  <!--RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <!--Brand--><a class="brand" href="index.html"
+                      ><img
+                        class="brand-logo-dark"
+                        src="images/logo.jpg"
+                        alt=""
+                        width="94"
+                        height="27"/><img
+                        class="brand-logo-light"
+                        src="images/logo.jpg"
+                        alt=""
+                        width="94"
+                        height="27"
+                    /></a>
+                  </div>
+                </div>
+
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="index.html">Hlavní</a>
+                      </li>
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="about-us.html">O nás</a>
+                      </li>
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="rezidenti.html"
+                          >Rezidenti</a
+                        >
+                        <ul class="rd-menu rd-navbar-dropdown">
+                          <li class="rd-dropdown-item">
+                            <a
+                              class="rd-dropdown-link"
+                              href="https://rezidenti1.cz"
+                              >Rezidenti 1</a
+                            >
+                          </li>
+                          <li class="rd-dropdown-item">
+                            <a class="rd-dropdown-link" href="rezidenti.html"
+                              >Rezidenti 2</a
+                            >
+                          </li>
+                          <li class="rd-dropdown-item">
+                            <a class="rd-dropdown-link" href="rezidenti.html"
+                              >Rezidenti 3</a
+                            >
+                          </li>
+                          <li class="rd-dropdown-item">
+                            <a class="rd-dropdown-link" href="rezidenti.html"
+                              >Rezidenti 4</a
+                            >
+                          </li>
+                          <li class="rd-dropdown-item">
+                            <a class="rd-dropdown-link" href="rezidenti.html"
+                              >Rezidenti 5</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item active">
+                        <a class="rd-nav-link" href="single-event.html"
+                          >Co se děje</a
+                        >
+                        <ul class="rd-menu rd-navbar-dropdown">
+                          <li class="rd-dropdown-item active">
+                            <a class="rd-dropdown-link" href="single-event.html"
+                              >2024</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="contacts.html">Kontakty</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Breadcrumbs-->
+      <section
+        class="breadcrumbs-custom bg-image"
+        style="background-image: url(images/events.jpg)"
+        data-preset='{"title":"Breadcrumbs","category":"header","reload":false,"id":"breadcrumbs"}'
+      >
+        <div class="container">
+          <div class="h1 breadcrumbs-custom-title">
+            AKTUALITY <br class="d-none d-xl-block" />
+            
+          </div>
+          <p class="breadcrumbs-custom-caption">
+            2024
+          </p>
+          <ul class="breadcrumbs-custom-path">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li class="active">Single Event</li>
+          </ul>
+        </div>
+      </section>
+
+     
+<!-- Sections with news -->
+<section id="first" class="section-news section-lg bg-default">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-8 col-lg-10">
+        <div class="pre-title wow fadeInLeft" data-wow-delay=".1s">
+          10 července 2024
+        </div>
+        <h2 class="wow fadeInRight" data-wow-delay=".2s">
+          REZIDENTI – NOVELA ZÁKONA O CESTOVNÍM RUCHU JE NEPROMYŠLENÁ A NERESPEKTUJE ČESKOU LEGISLATIVU!  
+        </h2>   
+        
+        <article>     
+          
+              <p><br>
+                
+                Jedno ze zásadních témat, kterému se REZIDENTI věnují je hledání řešení pro lepší bydlení v Praze, kterého se samozřejmě týká i novela zákon o podnikání v cestovním ruchu. Jeho návrh, který zavádí povinnou registraci všech poskytovatelů ubytování včetně online platforem jako Airbnb a Booking, považujeme za NEDOSTATEČNĚ promyšlený a NERESPEKTUJÍCÍ stávající legislativní rámec České republiky. Novela předpokládá vytvoření elektronického systému eTurista, jehož cílem je zjednodušení administrativních procesů a zvýšení transparentnosti v oblasti krátkodobých pronájmů. Bohužel, návrh v aktuální podobě obsahuje několik zásadních nedostatků, které je třeba vyřešit.<br><br>
+                Klíčové výhrady a doporučení za hnutí REZIDENTI:<br><br>
+                🔴 Nedodržení Evropských Nařízení<br>
+                Připravovaná novela zákona překračuje rámec evropských nařízení, která se vztahují výhradně na formy ubytování mimo oficiální ubytovací kapacity (hromadná ubytovací zařízení - HUZ). Návrh zákona zahrnuje i hotely a podobná zařízení, což není v souladu s cílem evropského nařízení.<br><br>
+                🔴 Neřešení Stávajících Legislativních Nesrovnalostí <br>
+                České zákony, včetně stavebního zákona a občanského zákoníku, jasně definují, že bytové prostory jsou určeny výhradně k bydlení. Poskytování ubytovacích služeb v bytech je tedy v rozporu s těmito předpisy. Novela zákona tento rozpor neřeší, a naopak legalizuje nelegální praxi.<br><br>
+                🔴 Nedostatečná Ochrana Bezpečnosti a Hygieny<br>
+                Návrh zákona neobsahuje dostatečná opatření k zajištění bezpečnostních a hygienických standardů pro krátkodobé pronájmy. To může vést k ohrožení bezpečnosti hostů a narušení kvality bydlení v bytových domech.<br><br>
+                🔴 Zbytečná Administrativní Zátěž<br>
+                Povinná registrace v systému eTurista a opětovné získávání ID jednotky představuje zbytečnou administrativní zátěž pro podnikatele, kteří již mají své provozovny registrované v živnostenském rejstříku. Stát by měl využít existující data a nevytvářet další byrokratické překážky.<br><br>
+                🔴 Nesprávná Implementace Registrace<br>
+                Návrh zákona nepočítá s povinností dokládat souhlas nebo povolení pro registrovaný prostor, což umožňuje registraci bytů, které nejsou určeny k poskytování ubytovacích služeb. To je v rozporu s platnou českou legislativou a evropskými předpisy.<br><br>
+                To že se tématu snesitelného bydlení a řešení Airbnb věnujeme aktivně svědčí i naše debata, která se uskutečnila ve Společenském středisku VIA na Malé Straně se 20. června 2024 a byla zaměřena na aktuální problémy pražských rezidentů související s krátkodobými pronájmy typu Airbnb. Akce, kterou REZIDENTI 1 uspořádali, přilákala mnoho zájemců a nabídla prostor pro diskusi o palčivých tématech bydlení v centru Prahy. <br><br>
+            
+                <div class="newsArt">
+                  <a
+                    class="gallery-thumbnail"
+                    href="images/news10(2).7.2024.jpg"
+                    data-lightgallery="item"
+                    ><img
+                      src="images/news10(2).7.2024.jpg"
+                      alt="NOVELA ZÁKONA O CESTOVNÍM RUCHU"            
+                    />
+                    <!--<div class="float-title">Rezidenti 2</div>--></a>
+                </div>   
+          Vaší REZIDENTI <br><br></p>
+            </article>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section-news section-lg bg-default">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-8 col-lg-10">
+        <div class="pre-title wow fadeInLeft" data-wow-delay=".1s">
+          9 července 2024
+        </div>
+        <h2 class="wow fadeInRight" data-wow-delay=".2s">
+          JE TÝRÁNÍ ZVÍŘAT HLUKEM Z FESTIVALŮ V POŘÁDKU?
+        </h2>   
+        
+        <article>     
+          
+              <p><br>
+                
+REZIDENTI dlouhodobě bojují za regulaci hluku v městském prostředí. Hluboce nás znepokojuje, že hlukové zátěži čelí i zvířata v zoologických zahradách 🐘🦁  Jsou vystavena nepřiměřenému hluku z festivalů, který jim způsobuje stres a nemají před ním kam uniknout 😢 <br><br>
+Zvířata jsou totiž schopna slyšet vyšší tóny, které my neslyšíme. Slyší zvuky ve frekvenčním rozsahu, který je pro lidské ucho nepřístupný. Mají také citlivější sluchové orgány, které jim umožňují detekovat zvuky, které lidé ani nezaregistrují 🦻👂 Kvůli těmto vlastnostem může být hluk z festivalů a koncertů pro zvířata mnohem rušivější a stresující než pro lidi. Tento hluk může způsobovat stres, dezorientaci a jiné zdravotní problémy, které mohou mít vážné důsledky pro jejich pohodu a zdraví ⚠️ <br><br>
+Tento problém se však netýká pouze zvířat v zoologických zahradách, ale také těch, kteří jsou nám nejbližší – naši domácí mazlíčci 🐶🐱<br><br>
+Podporujeme zoologické zahrady a další instituce, které se snaží zajistit klidné a bezpečné prostředí pro zvířata. Apelujeme na pořadatele kulturních akcí, aby při plánování brali v potaz nejen potřeby návštěvníků, ale i okolní prostředí a jeho obyvatele. Je nezbytné najít rovnováhu, která umožní kulturní život bez neúměrného zatížení obyvatel i zvířat nadměrným hlukem.<br><br>
+Vyzýváme k přijetí přísnějších regulací a pravidel pro pořádání hlasitých akcí v blízkosti citlivých oblastí, jako jsou zoologické zahrady, parky a obytné čtvrti. Společně můžeme dosáhnout toho, že naše města zůstanou příjemná k žití pro všechny obyvatele – lidské i zvířecí 💚
+ <br><br>
+ 
+ Odkaz na článek je <a href="https://vikend.hn.cz/c1-67339470-bojovnici-za-klid-je-zabava-vetsiny-nejen-v-kasarnach-karlin-vic-nez-pravo-mensiny-na-bydleni-bez-hluku?fbclid=IwZXh0bgNhZW0CMTAAAR0L3xKiobE2hEj35kGF-LYfUxNIIrCbv-PybhDjFfWOF9-SXkyq8ME5nAg_aem_xgMQY8NU5Rg_PwRw_38WYw"><u><strong>zde</strong></u>.</a> <br><br>
+            
+              Vaší REZIDENTI <br><br></p>
+            </article>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section id="second" class="section-news section-lg bg-default">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-8 col-lg-10">
+        <div class="pre-title wow fadeInLeft" data-wow-delay=".1s">
+          7 července 2024
+        </div>
+        <h2 class="wow fadeInRight" data-wow-delay=".2s">
+          REZIDENTI – BOJOVNÍCI PROTI HLUKU V CELÉ PRAZE 
+        </h2>   
+        
+        <article>     
+          
+              <p><br>
+                
+              🔊Jak vyvážit dynamický kulturní život v Praze a práva obyvatel na klidný a nerušený život?🔊 REZIDENTI dlouhodobě bojují v této problematice za práva obyvatel proti podnikatelské lobby v čele s Martin Motl, Miloš Závora a Hana Kordová Marvanová, která s REZIDENTI spolupracuje.<br><br>
+              Spor proti nepřiměřenému hluku se projevuje v různých částech města a dotýká se nejen obyvatel, ale i podnikatelů a politiků, viz. přiložený článek.<br><br>
+              Martin Motl, je významnou osobností v boji proti rušení nočního klidu v centru Prahy🌆🎵 Navrhuje zavedení licencí pro provozovatele barů, klubů a akcí, které by mohly být odebrány při opakovaném porušování nočního klidu. Motl kritizuje laxní přístup policie a žádá důraznější postupy, včetně zvýšení počtu hlídek v problematických lokalitách. Upozorňuje na absenci adekvátních zákonů a vyhlášek regulujících hluk v centru města a varuje, že Praha se stává místem pro turistické excesy bez rizika sankcí. Jeho snahy mají za cíl vytvořit rovnováhu mezi nočním životem a právy rezidentů na klidný život.<br><br>
+              K Motlovým snahám se výrazně zapojuje za REZIDENTI Miloš Závora, zakladatel iniciativy Česko bez hluku a největší bojovník proti hluku v Praze. Aktivně radí obyvatelům dotčeným nepřiměřenou hlukovou zátěží, kteří se na něj sami obracejí. Závora je známý svou účastí v případu uzavření kulturního prostoru v Kasárnách Karlín, kde kvůli chybějící kolaudaci a opakovaným stížnostem na rušení nočního klidu došlo k ukončení provozu 📝🤷‍♂️ Jeho kritici jej obviňují z omezování živé kultury, což Závora odmítá s tím, že jeho cílem je pouze zajistit DODRŽOVÁNÍ ÚNOSNÝCH LIMITŮ HLUKU a chránit obyvatele před nepřiměřeným hlukem.<br><br>
+              Hana Kordová Marvanová se například snažila prosadit městskou vyhlášku regulující venkovní koncerty a festivaly v Praze📝 včetně omezení jejich počtu. Její návrh vyhlášky byl po protestech zástupců hudebního byznysu odmítnut. Marvanová se snažila najít rovnováhu mezi potřebou kulturního vyžití a právem obyvatel na klidný život. Její snahy jsou chránit práva menšin a zlepšit kvalitu života v městských částech. Navzdory neúspěchu jejího návrhu zůstává její přístup inspirací a její úsilí o regulaci hluku ve městech nepolevuje.<br><br>
+              Společně za REZIDENTI usilujeme o vytvoření prostředí, kde bude možné užívat si kulturní akce, aniž by byla narušena kvalita života obyvatel města. Naše práce a odhodlání přináší naději na lepší budoucnost pro všechny, kteří chtějí v Praze žít v harmonii a bez zbytečného hluku.
+
+              <br><br>
+              Odkaz na článek je <a href="https://vikend.hn.cz/c1-67339470-bojovnici-za-klid-je-zabava-vetsiny-nejen-v-kasarnach-karlin-vic-nez-pravo-mensiny-na-bydleni-bez-hluku?fbclid=IwZXh0bgNhZW0CMTAAAR0L3xKiobE2hEj35kGF-LYfUxNIIrCbv-PybhDjFfWOF9-SXkyq8ME5nAg_aem_xgMQY8NU5Rg_PwRw_38WYw"><u><strong>zde</strong></u></a>. <br><br>
+            
+              <div id="clanek" class="newsArt">
+                <a
+                  class="gallery-thumbnail"
+                  href="images/news7(1).7.2024.jpg"
+                  data-lightgallery="item"
+                  ><img
+                    src="images/news7(1).7.2024.jpg"
+                    alt="článek"            
+                  />
+                  <!--<div class="float-title">Rezidenti 2</div>--></a>
+                  <a
+                  class="gallery-thumbnail"
+                  href="images/news7(2).7.2024.jpg"
+                  data-lightgallery="item"
+                  ><img
+                    src="images/news7(2).7.2024.jpg"
+                    alt="článek"            
+                  />
+                  <!--<div class="float-title">Rezidenti 2</div>--></a>
+                  <a
+                  class="gallery-thumbnail"
+                  href="images/news7(3).7.2024.jpg"
+                  data-lightgallery="item"
+                  ><img
+                    src="images/news7(3).7.2024.jpg"
+                    alt="článek"            
+                  />
+                  <!--<div class="float-title">Rezidenti 2</div>--></a>
+              </div>   
+              Vaší REZIDENTI <br><br></p>
+
+            </article>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section id="third" class="section-news section-lg bg-default">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-8 col-lg-10">
+        <div class="pre-title wow fadeInLeft" data-wow-delay=".1s">
+          3 července 2024
+        </div>
+        <h2 class="wow fadeInRight" data-wow-delay=".2s">
+          PRAHA 8 KARLÍN  <br>
+          V KASÁRNÁCH KARLÍN JE KLID
+        </h2>   
+        <article>     
+              <p><br>
+                
+                ❌Provozovatel kulturního centra na první pokus nedodal stavebnímu úřadu všechny potřebné dokumenty, a proto byl vyzván k jejich doplnění. Následně stavební úřad posoudí obsah podání a obešle účastníky řízení o dodatečném povolení staveb. Účastníky jsou majitelé sousedních nemovitostí, kteří tak budou konečně MOCI UPLATNIT SVÁ PRÁVA ve stavebním řízení. Stavební úřad posoudí zejména, zda je záměr provozovatele v souladu s pohodou bydlení sousedů.<br><br> 
+                ⚖️Jak judikoval Nejvyšší správní soud v rozsudku sp. zn. 2 As 34/2010-99: „Je naopak zcela namístě posuzovat, v souvislosti s rozhodováním o dodatečném povolení nepovolené stavby, její provozní externality na okolí, neboť i ty jsou určující pro zhodnocení, zda je zachována pohoda bydlení. (...) NSS je naopak toho názoru, že je-li předmětem povolování stavba již reálně existující, a dokonce užívaná, nelze nalézt rozumný důvod, proč by k (empiricky ověřitelnému) vlivu této stavby na okolí nemělo být přihlédnuto.“ (VOMÁČKA, Vojtěch. Judikatura NSS: Pohoda bydlení a kvalita prostředí. Soudní rozhledy, 2015, č. 11-12, s. 386-391).<br><br>
+                Protože bylo kulturní centrum provozováno bez povolení, bylo pošlapáváno právo občanů na posouzení dopadu kulturního centra na jejich pohodu bydlení. Z uvedeného je zřejmé, že nešlo o formalitu, ale o zákonný proces s významným dopadem na život zdejších rezidentů.<br><br>
+                Jsme pro ohleduplnou kulturu. Hájíme práva místních občanů‼️ <br><br>
+            
+                <div class="newsArt">
+                  <a
+                    class="gallery-thumbnail"
+                    href="images/news3(2).7.2024.jpg"
+                    data-lightgallery="item"
+                    ><img
+                      src="images/news3(2).7.2024.jpg"
+                      alt="V KASÁRNÁCH KARLÍN JE KLID"            
+                    />
+                    <!--<div class="float-title">Rezidenti 2</div>--></a>
+                    
+                    <!--<div class="float-title">Rezidenti 2</div>--></a>
+                </div>   
+                Vaší REZIDENTI <br><br></p>
+            </article>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section-news section-lg bg-default">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-8 col-lg-10">
+        <div class="pre-title wow fadeInLeft" data-wow-delay=".1s">
+          3 července 2024
+        </div>
+        <h2 class="wow fadeInRight" data-wow-delay=".2s">
+          PRAHA 8 <br>
+          OBJEKTIVNÍ ČLÁNEK O PROBLEMATICE KASÁREN KARLÍN.
+        </h2>   
+        <article>     
+              <p><br>
+                
+                Aktuální článek o Kasárnách Karlín vystihuje podstatu problému, bohužel nejen v Karlíně.<br><br>
+            
+
+              <div class="newsArt">
+                <a
+                  class="gallery-thumbnail"
+                  href="images/news3.7.2024.jpg"
+                  data-lightgallery="item"
+                  ><img
+                    src="images/news3.7.2024.jpg"
+                    alt="článek o Kasárnách Karlín"
+                  
+                  />
+                  <!--<div class="float-title">Rezidenti 2</div>--></a>
+              </div>   <br><br> 
+        Vaší REZIDENTI <br><br></p>
+
+        <!-- <img class="newsArt" src="images/news3.7.2024.jpg"/> -->
+            </article>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section-news section-lg bg-default">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-10">
+              <div class="pre-title wow fadeInLeft" data-wow-delay=".1s">
+                1 července 2024
+              </div>
+              <h2 class="wow fadeInRight" data-wow-delay=".2s">
+                PRAHA 1 - REZIDENTI 1 <br>
+                SPOLEČNĚ ZA LEPŠÍ BEZPEČNOSTNÍ OPATŘENÍ 
+              </h2>   
+              
+              <article>     
+                
+                    <p><br>
+                      
+                      Hana Kordová Marvanová, zmocněnkyně k podání stížnosti proti policejnímu usnesení o střelbě na Filozofické fakultě UK, poskytla rozhovor pro Echo24, ve kterém kritizuje policejní vyšetřování střelby. Se závěry vyšetřování nejsou spokojeny ani rodiny obětí z řad studentů. Senátorka Marvanová zdůrazňuje selhání v komunikaci a nedostatečné objasnění motivu střelce, zároveň ale vyzdvihuje práci zasahujících policistů v místě neštěstí.<br><br>
+                      Rádi bychom tímto vyjádřili paní senátorce podporu v této aktivitě, protože to za REZIDENTI též řešíme a je to pro nás velmi osobní, už proto, že jsme se díky této nešťastné události rozloučili s kolegyní, velmi respektovanou dámou napříč politickým spektrem, učitelkou pěveckého spolku Bruncvik a dnes čestnou občankou Praha 1 in memoriam🤍<br><br>
+                      ⚠️Stejně jako Hana Marvanová navrhujeme několik opatření pro zvýšení bezpečnosti a prevenci těchto tragických případů. Zdůrazňujeme potřebu zlepšit komunikaci mezi policií a veřejností, zvýšit kontrolu nad dostupností zbraní a zavést důkladnější prověřování osob žádajících o zbrojní průkazy. Kromě toho doporučujeme lepší koordinaci mezi jednotlivými složkami bezpečnostního systému a větší důraz na prevenci násilí na školách a univerzitách.<br><br>
+                      Více se dočtete 
+                      <a href="https://echo24.cz/g/HUbPN/rozhovor-hana-kordova-marvanova-dopis-vraha-kozak-strelba-filozoficka-fakulta-uk-policie-gibs-rakusan/2?fbclid=IwZXh0bgNhZW0CMTAAAR0-j2EwRxAx4PiGQWspn2ttvykhGbdwJ3ZQQ9fXP0eJe0a8EQM5KR13GVo_aem_DNgVmzyQOlfrUGRN__QGJQ"><u><strong>zde</strong></u></a>. <br><br>
+                  
+
+                      
+              <div class="newsArt">
+                <a
+                  class="gallery-thumbnail"
+                  href="images/news1.7.2024.jpg"
+                  data-lightgallery="item"
+                  ><img
+                    src="images/news1.7.2024.jpg"
+                    alt="Hana Kordová Marvanová"
+                  
+                  />
+                  <!--<div class="float-title">Rezidenti 2</div>--></a>
+               </div>   <br><br> 
+                   Vaší REZIDENTI <br><br></p>
+                  </article>
+              </div>
+            </div>
+          </div>
+      </section>
+     
+      <section class="section-news section-lg bg-default">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-10">
+              <div class="pre-title wow fadeInLeft" data-wow-delay=".1s">
+                3 července 2024
+              </div>
+              <h2 class="wow fadeInRight" data-wow-delay=".2s">
+                PRAHA 7 BUBENEČ – REZIDENTI 7<br>
+                 NEDODRŽOVÁNÍ NOČNÍHO KLIDU A SMLUVNÍCH PODMÍNEK NA FESTIVALU METRONOME! 
+              </h2>     
+              <article>     
+                    <p><br>
+          
+                Rezidenti žijící v blízkosti Výstaviště Praha nás oslovili s naléhavou žádostí o pomoc při řešení závažného porušování nočního klidu nedávno proběhlého festivalu Metronome, což ovlivnilo životy tisíců obyvatel našeho města. <br><br>
+                🔇 Co se stalo? Festival Metronome, konaný v prostorách Výstaviště Praha, pokračoval dlouho do nočních hodin, a to i přes stížnosti stovek občanů. Situace byla o to znepokojivější, že policie, která má na Výstavišti služebnu, zůstala nečinná. Občané, kteří volali na tísňovou linku, byli mylně informováni, že se jedná o povolenou akci. Hluk z festivalu obtěžoval občany nejen v blízkosti Výstaviště Praha, ale z celé Prahy 7, Prahy 8 a 10. Stížnosti byly i z Fakultní nemocnice Bulovka.<br><br>
+                📞 Máme zajištěné důkazy. 
+                Mnoho obyvatel volalo na linku PČR a stěžovalo si na rušení nočního klidu.
+                Obdrželi jsme důkazy, včetně záznamů hovorů na policejní služebnu a příspěvků na sociálních sítích, které potvrzují nepravdivé informace sdělované policií.
+                Metodika Krajského ředitelství policie hl. m. Prahy jasně uvádí, jak postupovat při rušení nočního klidu, avšak byla SYSTEMATICKY IGNOROVÁNA.<br><br>
+                📢 Žádáme magistrát hl. m. Prahy a vedení Výstaviště Praha, aby zajistili dodržování nočního klidu a respektování smluvních podmínek při pořádání veřejných akcí.<br><br>
+                Ve smlouvě mezi pořadatelem Metronome Prague a Výstavištěm Praha, a.s. je jasně uvedeno:<br>
+                - Veškerá hudební produkce, případně jiná produkce, která by mohla rušit noční klid, musí skončit nejpozději ve 22:00 hod.<br>
+                - Hudební produkce v pavilonech musí končit v 6:00 hod.<br>
+                - Výstaviště Praha, a.s. má právo kdykoli nechat podnájemce upravit hlasitost produkce, pokud bude vyhodnocena jako příliš vysoká.<br><br>
+                Požadujeme také, aby bylo objasněno, proč Policie České republiky instruovala své příslušníky k podávání nepravdivých informací.<br><br>
+                NEJSME PROTI HUDEBNÍM AKCÍM, naopak kulturu podporujeme. A věřte, že se dá pořádat hudební festival tak, aby obtěžoval minimum lidí.<br><br>
+                Jak se dalo hluku z festivalu předcházet? Nejhlasitější produkce mohla být přesunuta do pavilonu a u té méně hlučné by stačila úprava nastavení basů, které mohly být sníženy na přijatelnou úroveň úpravou aparatury. Rovněž by pomohla práce s orientací pódia, aby se minimalizovalo šíření zvuku do obytných oblastí. Hudební produkce po 22:00 mohla být přesunuta též do vnitřních prostor Výstaviště, čímž by se výrazně snížilo rušení nočního klidu.<br><br>
+                Prosíme všechny občany, aby sdíleli tuto zprávu a připojili se k nám v boji za klidné noci a spravedlivé jednání ze strany úřadů a policie. Vaše podpora je klíčová pro dosažení změny! <br><br>
+                  
+                      <div class="newsArt">
+                        <a
+                          class="gallery-thumbnail"
+                          href="images/news25.6.2024.jpg"
+                          data-lightgallery="item"
+                          ><img
+                            src="images/news25.6.2024.jpg"
+                            alt="V KASÁRNÁCH KARLÍN JE KLID"
+                            align: left            
+                          />
+                          <!--<div class="float-title">Rezidenti 2</div>--></a>
+                          
+                          <!--<div class="float-title">Rezidenti 2</div>--></a>
+                      </div> 
+
+                      Vaší REZIDENTI <br><br></p>
+
+                  </article>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+      <section class="section-news section-lg bg-default">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-10">
+              <div class="pre-title wow fadeInLeft" data-wow-delay=".1s">
+                3 července 2024
+              </div>
+              <h2 class="wow fadeInRight" data-wow-delay=".2s">
+                PRAHA 1 - REZIDENTI 1<br>
+                JAK SE BRÁNIT TURISTŮM V BYTECH 
+              </h2>     
+              <article>     
+                    <p><br>
+                      PRAHA 1 - REZIDENTI 1 právě veřejně debatují s občany JAK SE BRÁNIT TURISTŮM V BYTECH a tím tak pomoci Pražanům k dostupnému bydlení.<br><br> 
+                      Nejvíce diskutované téma je problematika AIRBNB a kdo a jak může legislativně jednat v této věci⁉️<br><br>
+                      Mezi hosty debaty jsou Hana Kordová Marvanová, Marek Hilšer a Martina Lazarova.<br><br>
+                      Debatou provází předseda hnuti REZIDENTI 1 Martin Motl a kolega Petr Městecký 
+               <br><br>
+                  
+                      <div class="newsArt">
+                        <a
+                          class="gallery-thumbnail"
+                          href="images/news20.6.2024.jpg"
+                          data-lightgallery="item"
+                          ><img
+                            src="images/news20.6.2024.jpg"
+                            alt="V KASÁRNÁCH KARLÍN JE KLID"
+                            align: left            
+                          />
+                          <!--<div class="float-title">Rezidenti 2</div>--></a>
+                          
+                          <!--<div class="float-title">Rezidenti 2</div>--></a>
+                      </div> 
+                      Vaší REZIDENTI <br><br></p>
+                  </article>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+    <!-- Upcoming events -->
+      <section class="section section-lg bg-default">
+        <div class="container">
+          <div class="pre-title text-center">Nadcházející události</div>
+          <h2 class="text-center"> </h2>
+          <div class="row row-narrow-50 row-30 row-xl">
+            <div class="col-lg-4">
+              <div class="post-classic sm">
+                <div class="post-classic__media">
+                  <a href="#"
+                    ><img
+                      src="images/event-4-390x273.jpg"
+                      alt=""
+                      width="390"
+                      height="273"
+                  /></a>
+                </div>
+                <div class="post-classic__caption">
+                  <span class="post-info">Místo, datum</span>
+                  <h3 class="post-title">
+                    <a href="#">Název události </a>
+                  </h3>
+                  <a
+                    class="btn btn-icon btn-icon-right btn-transparent btn-svg"
+                    href="#"
+                    ><span class="svg-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="10"
+                        viewbox="0 0 18 10"
+                      >
+                        <path
+                          d="M13 10V6H0V4H13V0L18 5L13 10Z"
+                          fill=""
+                        ></path></svg></span
+                    ><span>více</span></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="post-classic sm">
+                <div class="post-classic__media">
+                  <a href="#"
+                    ><img
+                      src="images/event-5-390x273.jpg"
+                      alt=""
+                      width="390"
+                      height="273"
+                  /></a>
+                </div>
+                <div class="post-classic__caption">
+                  <span class="post-info">Místo, datum </span>
+                  <h3 class="post-title">
+                    <a href="#"
+                      >Název události </a
+                    >
+                  </h3>
+                  <a
+                    class="btn btn-icon btn-icon-right btn-transparent btn-svg"
+                    href="#"
+                    ><span class="svg-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="10"
+                        viewbox="0 0 18 10"
+                      >
+                        <path
+                          d="M13 10V6H0V4H13V0L18 5L13 10Z"
+                          fill=""
+                        ></path></svg></span
+                    ><span>více</span></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="post-classic sm">
+                <div class="post-classic__media">
+                  <a href="#"
+                    ><img
+                      src="images/event-6-390x273.jpg"
+                      alt=""
+                      width="390"
+                      height="273"
+                  /></a>
+                </div>
+                <div class="post-classic__caption">
+                  <span class="post-info">Místo, datum</span>
+                  <h3 class="post-title">
+                    <a href="#"
+                      >Název události</a
+                    >
+                  </h3>
+                  <a
+                    class="btn btn-icon btn-icon-right btn-transparent btn-svg"
+                    href="#"
+                    ><span class="svg-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="10"
+                        viewbox="0 0 18 10"
+                      >
+                        <path
+                          d="M13 10V6H0V4H13V0L18 5L13 10Z"
+                          fill=""
+                        ></path></svg></span
+                    ><span>více</span></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+
+
+  <!--  Footer  -->
+
+  <footer class="section footer-classic">
+    <div class="footer-body">
+      <div class="container">
+        <div
+          class="row justify-content-xl-between row-40 justify-content-lg-center"
+        >
+          <div class="col-lg-6">
+            <div class="row row-20">
+              <div class="col-sm-4 col-6 wow fadeInUp" data-wow-delay=".1s">
+                <div class="footer-title">Kdo jsme</div>
+                <ul class="nav-list">
+                  <li><a href="about-us.html">O nás</a></li>
+                  <li><a href="rezidenti.html">Našé víze</a></li>
+                  <li><a href="rezidenti.html">Naší lidé</a></li>
+                  <li><a href="rezidenti.html">Rezidenti</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4 col-6 wow fadeInUp" data-wow-delay=".2s">
+                <div class="footer-title">Info</div>
+                <ul class="nav-list">
+                  <li><a href="single-event.html">Aktuality</a></li>
+                  <li><a href="contacts.html">Kontakty</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4 col-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="footer-title"></div>
+                <ul class="nav-list">
+                  <br />
+                  <li><a href="#">Podpořte nás</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-5 inset-right-100 wow fadeInRight"
+            data-wow-delay=".3s"
+          >
+            <div class="footer-title">Kontaktujte nás</div>
+            <ul class="contact-list">
+              <li>
+                <a class="link-secondary" href="mailto:#"
+                  >info@rezidenti.cz</a
+                >
+              </li>
+              <!-- <li>
+                <span>Zavolejte nám:</span
+                ><a class="phone" href="tel:#">+420 XXXXXXXXX</a>
+              </li>-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-aside">
+      <div class="container">
+        <div class="row row-xl-40">
+          <div class="col-12 wow fadeInUp" data-wow-delay=".4s">
+            <ul class="social-footer">
+              <li>
+                <a href="#"><span class="icon fa fa-facebook-f"></span></a>
+              </li>
+            </ul>
+            <div class="social">
+              <a href="https://www.facebook.com/REZIDENTICZ">
+                <img class="social" src="images/facebook-logo.png" />
+              </a>
+            </div>
+            <p class="rights">
+              <span>&copy;&nbsp; </span><span class="copyright-year"></span
+              ><span>&nbsp;</span><span>Rezidenti</span><span>&nbsp;</span
+              ><span></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+    <div class="arrow">
+      <div class="arrow-top"></div>
+      <div class="arrow-down"></div>
+    </div>
+
+
+    <div class="snackbars" id="form-output-global"></div>
+
+  <!-- jQuery script has to be in the very beginning not to broke other scripts!!! -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- Readmore script for hiding long texts-->
+    <script src="/node_modules/readmore-js/readmore.js"></script>
+    
+    <script>
+    $('article').readmore({ //вызов плагина
+      speed: 250, //скорость раскрытия скрытого текста (в миллисекундах)
+      maxHeight: 200, //высота раскрытой области текста (в пикселях)
+      heightMargin: 106, //избегание ломания блоков, которые больше maxHeight (в пикселях)
+      moreLink: '<a href="#" data-readmore-toggle>více ↓</a>', //ссылка "Читать далее", можно переименовать
+      lessLink: '<a href="#">zavřít ↑</a>' //ссылка "Скрыть", можно переименовать
+      });
+      </script>
+
+    
+
+    <script src="js/core.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
+
+    
+ 
+    
+
+
+
+<!-- Hiding text, only CSS version -->
+ <!--
+      <section class="section section-lg bg-default">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-10">
+              <div class="pre-title wow fadeInLeft" data-wow-delay=".1s">
+                25 červena 2024
+              </div>
+              <h2 class="wow fadeInRight" data-wow-delay=".2s">
+                Praha 7 Bubeneč – Rezidenti 7 - Nedodržování nočního klidu a smluvních podmínek na  festivalu Metronome!
+              </h2>   
+              
+              <div class="holder">     
+                <input type="checkbox" class="read-more-checker" id="read-more-checker" />
+                  <div class="limited l-200"> 
+                    <p><br>Rezidenti žijící v blízkosti Výstaviště Praha nás oslovili s naléhavou žádostí o pomoc při řešení závažného porušování nočního klidu nedávno proběhlého festivalu Metronome, což ovlivnilo životy tisíců obyvatel našeho města. <br>
+                  <br><br>
+                    Vaší REZIDENTI </p>
+                  </div>
+                <label for="read-more-checker" class="read-more-button"></label>
+              </div>
+
+              <p class="text-sm wow fadeInUp" data-wow-delay=".4s">
+                
+              </p>
+              <div class="single-event-date offset-xl-50">
+                <span class="date">Jan 23, 2020</span
+                ><a class="location" href="#"
+                  ><span class="icon mdi-map-marker mdi"></span></a
+                >
+              </div>
+              <a
+                class="shadow btn btn-icon btn-icon-right btn-secondary btn-svg offset-xl-55 wow fadeInUp"
+                href="about-us.html"
+                data-wow-delay=".3s"
+                ><span class="svg-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="10"
+                    viewbox="0 0 18 10"
+                    fill="#fff"
+                  >
+                    <path
+                      d="M13 10V6H0V4H13V0L18 5L13 10Z"
+                      fill=""
+                    ></path></svg></span
+                ><span>Register here</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>-->
+    
+
+    
