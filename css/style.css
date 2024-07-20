@@ -11338,11 +11338,11 @@ a {
 }*/
 
 .scheme svg {
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0px;
-  height: 450px;
-  width: 738px;
+  /*height: 450px;
+  width: 738px;*/
 }
 
 .scheme polygon {
