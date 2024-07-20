@@ -11320,8 +11320,8 @@ a {
 /* SVG map */
 
 .scheme {
-  height: 450px;
-  width: 738px;
+  /* height: 450px;
+  width: 738px;*/
   margin: 0 auto;
   position: relative;
   margin-top: 5em;
@@ -11330,10 +11330,10 @@ a {
   margin-right: auto;
 }
 
-/*@media (max-width: 600px) and (min-width: 400px) {
-  .scheme {
-    width: 15vw;
-    height: 10vh;
+/*@media (min-width: 400px) and (max-width: 600px) {
+  .scheme svg {
+    width: 300px;
+    height: 450px;
   }
 }*/
 
@@ -11341,6 +11341,7 @@ a {
   position: relative;
   top: 0px;
   left: 0px;
+
   /*height: 450px;
   width: 738px;*/
 }
