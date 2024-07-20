@@ -722,7 +722,7 @@ Vyzýváme k přijetí přísnějších regulací a pravidel pro pořádání hl
                 <ul class="nav-list">
                   <li><a href="about-us.html">O nás</a></li>
                   <li><a href="rezidenti.html">Našé víze</a></li>
-                  <li><a href="rezidenti.html">Naší lidé</a></li>
+                  <li><a href="rezidenti.html#ourPeople">Naší lidé</a></li>
                   <li><a href="rezidenti.html">Rezidenti</a></li>
                 </ul>
               </div>
@@ -799,15 +799,17 @@ Vyzýváme k přijetí přísnějších regulací a pravidel pro pořádání hl
     <div class="snackbars" id="form-output-global"></div>
 
   <!-- jQuery script has to be in the very beginning not to broke other scripts!!! -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <!--<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>-->
 
     <!-- Readmore script for hiding long texts-->
-    <script src="readmore.js"></script>
+    <script src="/node_modules/readmore-js/readmore.js"></script>
     
     <script>
     $('article').readmore({ //вызов плагина
       speed: 250, //скорость раскрытия скрытого текста (в миллисекундах)
-      maxHeight: 190, //высота раскрытой области текста (в пикселях)
+      maxHeight: 200, //высота раскрытой области текста (в пикселях)
       heightMargin: 106, //избегание ломания блоков, которые больше maxHeight (в пикселях)
       moreLink: '<a href="#" data-readmore-toggle>více ↓</a>', //ссылка "Читать далее", можно переименовать
       lessLink: '<a href="#">zavřít ↑</a>' //ссылка "Скрыть", можно переименовать
