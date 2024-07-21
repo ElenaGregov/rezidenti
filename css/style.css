@@ -11346,6 +11346,39 @@ a {
   width: 738px;*/
 }
 
+@media (min-width: 800px) {
+  .scheme svg {
+    transform: scale(0.75);
+  }
+
+  .scheme {
+    margin-top: -4em;
+    margin-bottom: -8em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .scheme {
+    margin-top: -6em;
+    margin-bottom: -16em;
+  }
+
+  .scheme svg {
+    transform: scale(0.65);
+  }
+}
+
+@media (min-width: 1600px) {
+  .scheme {
+    margin-top: -20em;
+    margin-bottom: -26em;
+  }
+
+  .scheme svg {
+    transform: scale(0.45);
+  }
+}
+
 .scheme polygon {
   fill: #4db9da;
   opacity: 0.8;
