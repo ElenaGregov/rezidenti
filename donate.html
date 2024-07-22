@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Rezidenti - Podpořte nás</title>
+    <title>Rezidenti</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -17,11 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="/node_modules/lightgallery/css/lightgallery-bundle.css"
-    />
+
     <!-- <link
       rel="stylesheet"
       type="text/css"
@@ -143,7 +139,7 @@
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
                     <ul class="rd-navbar-nav">
-                      <li class="rd-nav-item">
+                      <li class="rd-nav-item active">
                         <a class="rd-nav-link" href="index.html">Hlavní</a>
                       </li>
                       <li class="rd-nav-item">
@@ -188,14 +184,14 @@
                           >Co se děje</a
                         >
                         <ul class="rd-menu rd-navbar-dropdown">
-                          <li class="rd-dropdown-item active">
+                          <li class="rd-dropdown-item">
                             <a class="rd-dropdown-link" href="single-event.html"
                               >2024</a
                             >
                           </li>
                         </ul>
                       </li>
-                      <li class="rd-nav-item active">
+                      <li class="rd-nav-item">
                         <a class="rd-nav-link" href="contacts.html">Kontakty</a>
                       </li>
                     </ul>
@@ -207,9 +203,134 @@
         </div>
       </header>
 
-    <!-- Donation form -->
+      <!-- Donation form -->
+      <h1 class="donate">Na Vašem přispěvku záleží</h1>
+      <h2 id="dar">Můžete přispět finančním darem pomocí:</h2>
 
 
+      <section class="donation-section">
+        
+        <div class="donatecard"> 
+          <h2 class="donate">Online platební karty</h2>
+              <br>
+            <form
+            class="myform"
+            action=""
+            method="get"
+            id="donation"
+            enctype="multipart/form-data"
+          >
+            <fieldset>
+              <label id="vyse">
+                  <strong id="vys">Výše daru</strong><br></span><br>
+                  <span>
+                  <input
+                    name="amount"
+                    type="text"
+                    value=""
+                    maxlength="255"
+                    placeholder="CZK"/></span
+              ></label><br><br></fieldset>
+              <div><button id="donate" class="btn btn-secondary" type="submit">
+                Zaplatit kartou
+              </button></div>
+            
+          </form></div>
+
+        <div class="donatecard"> 
+            <h2 class="donate">Bankovního převodu</h2>
+        
+            <fieldset>
+            <div class="account-wrap">
+              <p class="account-info">
+                <strong>Zadejte následující platební příkaz:</strong>
+              </p> <br>
+              <div class="account-numbers">
+                <p>
+                  <span>Číslo účtu</span><br />1111111111/0000
+                </p>
+                <p>
+                  <span>Variabilní symbol</span><br />1111111111
+                </p>
+                <p><span>Specifický symbol</span><br />111111</p>
+              </div>
+            </div></fieldset></div>
+
+        <div class="donatecard"><h2 class="donate">QR kódu</h2>
+          <br>
+          <img id="qr" src="images/qr-code.png" alt="qr-code" width="140px" height="140px"/>
+          
+        </div>
+
+      </section>
+
+
+
+
+      <!--<section class="section section-md">
+
+
+        <div class="container">
+         <div class="row row-50">
+
+
+
+            <div id="leftCol">
+              <h2 class="donate">Online platební karty</h2>
+              
+              <form
+              class="myform"
+              action=""
+              method="get"
+              id="donation"
+              enctype="multipart/form-data"
+            >
+              <fieldset>
+                <label 
+                  ><span class="lavl"></span>
+                    Výše daru<br><strong></strong></span
+                  ><span class="invl"
+                    ><input
+                      name="amount"
+                      type="text"
+                      value=""
+                      maxlength="255"
+                      placeholder="1 až 10 000 korun"/></span
+                ></label><br><br>
+                <button class="cudl" type="submit">
+                  Zaplatit kartou
+                </button>
+
+              </fieldset>
+            </form>
+        </div>
+
+            <div id="rightCol">
+              <h2 class="donate">Bankovního převodu</h2>
+              <br><br>
+              
+              <div class="account-wrap">
+                <p class="account-info">
+                  Zadejte následující platební příkaz
+                </p>
+                <div class="account-numbers">
+                  <p>
+                    <span>Číslo účtu</span><br />1111111111/0000
+                  </p>
+                  <p>
+                    <span>Variabilní symbol</span><br />1111111111
+                  </p>
+                  <p><span>Specifický symbol</span><br />111111</p>
+                </div>
+              </div>
+            </div>
+          
+            </div>
+          </div>
+        </div>
+      </section>
+
+    -->
 
       <!--  Footer  -->
 
@@ -241,7 +362,7 @@
                     <div class="footer-title"></div>
                     <ul class="nav-list">
                       <br />
-                      <li><a href="#">Podpořte nás</a></li>
+                      <li><a href="donate.html">Podpořte nás</a></li>
                       <li><a href="#">FAQ</a></li>
                     </ul>
                   </div>
@@ -260,9 +381,9 @@
                     >
                   </li>
                   <!-- <li>
-        <span>Zavolejte nám:</span
-        ><a class="phone" href="tel:#">+420 XXXXXXXXX</a>
-      </li>-->
+          <span>Zavolejte nám:</span
+          ><a class="phone" href="tel:#">+420 XXXXXXXXX</a>
+        </li>-->
                 </ul>
               </div>
             </div>
