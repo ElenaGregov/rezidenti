@@ -11288,8 +11288,9 @@ a {
   text-align: justify;
 }
 
-#clanek a {
+.clanek a {
   display: inline-block;
+  justify-content: center;
 }
 
 .section-contact {
@@ -11317,6 +11318,10 @@ a {
   }
 }
 
+.newsArt {
+  justify-content: center;
+  display: flex;
+}
 /* SVG map */
 
 .scheme {
@@ -11534,4 +11539,8 @@ label#vyse {
 
 strong#vys {
   margin-right: 10px;
+}
+
+input #pay {
+  width: 20px;
 }
